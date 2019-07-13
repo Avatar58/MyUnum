@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47241" started-at="2019-06-30T22:06:51 IST" finished-at="2019-06-30T22:07:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47241" started-at="2019-06-30T22:06:51 IST" finished-at="2019-06-30T22:07:38 IST">
+      <class name="TestCases.EditLead">
+        <test-method status="PASS" signature="getExcelname()[pri:0, instance:TestCases.EditLead@5a8e6209]" name="getExcelname" is-config="true" duration-ms="16" started-at="2019-06-30T22:06:51 IST" finished-at="2019-06-30T22:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelname -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.EditLead@5a8e6209]" name="login" is-config="true" duration-ms="26820" started-at="2019-06-30T22:06:51 IST" finished-at="2019-06-30T22:07:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editlead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.EditLead@5a8e6209]" name="editlead" duration-ms="19470" started-at="2019-06-30T22:07:18 IST" data-provider="editlead" finished-at="2019-06-30T22:07:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lakshmikanth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editlead -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestCases.EditLead@5a8e6209]" name="closebrowser" is-config="true" duration-ms="47" started-at="2019-06-30T22:07:38 IST" finished-at="2019-06-30T22:07:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCases.EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
