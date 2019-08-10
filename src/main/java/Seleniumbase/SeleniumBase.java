@@ -42,6 +42,7 @@ public class SeleniumBase implements Browser {
 		
 		ele.clear();
 		ele.sendKeys(data);
+		System.out.println("Newly added print out statement");
 	}
 	
 	
