@@ -43,17 +43,13 @@ public class ProjectSpecificMethods {
 		data[1][0]= "HCL";
 		data[1][1]="Lakshmikanth";
 		data[1][2]="Srinivasan";*/
-				
 		return ReadExcel.excelread("TestData");
 							
 	}
 	@DataProvider(name ="editlead")
 	public String [][] editleaddata() throws IOException{
 		return ReadExcel.excelread("TestData");
-		
-		
+			
 	}
-	
-	
-	
+
 }

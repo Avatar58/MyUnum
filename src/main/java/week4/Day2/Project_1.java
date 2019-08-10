@@ -46,7 +46,7 @@ public class Project_1 {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//List<WebElement> carlist =driver.findElementsByXPath("//div[@class='details']//h3");
 		List<WebElement> price = driver.findElementsByXPath("//div[@class='price']");
-		List<Integer> pricedetails = new ArrayList<>();
+		/*List<Integer> pricedetails = new ArrayList<>();
 		
 		for (WebElement eachprice : price) {
 			
@@ -56,7 +56,7 @@ public class Project_1 {
 		
 		
 		Collections.sort(pricedetails);
-		System.out.println(pricedetails.get(0));
+		System.out.println(pricedetails.get(0));*/
 		
 		
 		

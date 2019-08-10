@@ -3,13 +3,12 @@ package Seleniumbase;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 public class Test {
-
 	public static void main(String[] args) throws InterruptedException {
-		
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://leaftaps.com/opentaps/control/main");
@@ -61,5 +60,7 @@ public class Test {
 		else
 			System.out.println("something went wrong");
 	}
+	
+	
 
 }
